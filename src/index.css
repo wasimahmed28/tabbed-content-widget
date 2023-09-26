@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.tab-container {
+  display: flex;
+}
+
+.tab {
+  margin-right: 10px;
+}
+
+.tab-btn {
+  padding: 10px 20px;
+  background-color: #ffc0cb;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.tab-btn:hover {
+  background-color: #ff8095;
+}
+
+.content-container {
+  margin-top: 20px;
+}
+
+.tab-content {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+/* Add this CSS to your stylesheet or in a <style> tag in your HTML */
+.tab-content {
+  /* Add any other styles you need for your tab content container */
+}
+
+.image-row {
+  display: flex; /* Make the image rows flex containers */
+  flex-wrap: wrap; /* Allow images to wrap to the next row if necessary */
+  margin: -10px; /* Add negative margin to offset the padding */
+}
+
+.image {
+  flex: 0 0 calc(16.666% - 20px); /* Set each image to occupy 1/6th of the row width with some margin */
+  padding: 10px; /* Add spacing between images */
+  box-sizing: border-box; /* Include padding in the element's total width */
+}
+
+img {
+  width: 180px; /* Ensure images don't exceed their container's width */
+  height: 150px; /* Maintain the aspect ratio of the images */
+}
+.image-row{
+  margin-left:30px;
+}
+p{
+  font-weight: 800;
+  font-size: 40px;
+}
+
+li{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#image{
+  width:900px;
+  height:200px;
+}
+
+
