@@ -39,10 +39,11 @@ function App() {
       </div>
       <div className="content-container">
         <div className={`tab-content ${activeTab === 'tab1' ? 'active' : ''}`}>
-          {/* <p>Develop an app in React/Vite that resembles this one.</p>
-          <ol>
+          {/* <p>Develop an app in React/Vite that resembles this one.</p> */}
+          {/* <ol>
             <li>Create three tabs.</li>
             <li>On clicking the tab, the page should not reload.</li>
+            <li>To achieve this you can use any of the different approaches you can possibly imagine, if it works, you will be credited.</li>
             <li>The first Tab should hold some content like your bio/information.</li>
             <li>The second tab should hold an Intellipaat Youtube Video</li>
             <li>The third tab should hold images (6 in one line, 6 on the next)</li>
